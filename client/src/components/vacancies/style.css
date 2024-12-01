@@ -1,0 +1,113 @@
+.vacancies {
+    padding-bottom: 34px;
+}
+
+.vacancies .count {
+    font-family: "SF Pro";
+    font-size: 24px;
+    font-weight: 590;
+    line-height: 32px;
+    color: var(--my-theme-text-color);
+
+
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.item {
+    display: flex;
+    padding: 8px 10px 8px 0px;
+    align-items: center;
+    align-self: stretch;
+    position: relative;
+    z-index: 1;
+}
+
+.item-img {
+    display: flex;
+    width: 40px;
+    height: 40px;
+    justify-content: center;
+    align-items: center;
+}
+
+.item-body {
+    display: flex;
+    height: 40px;
+    padding: 0 12px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    flex: 1 0 0;
+}
+
+.item-details {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    align-self: stretch;
+}
+
+.item-details p {
+    color: var(--my-theme-text-color);
+    font-family: "SF Pro Text";
+    font-size: 17px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: -0.442px;
+}
+
+.item-salary {
+    display: flex;
+    align-items: center;
+    gap: 6px;
+    align-self: stretch;
+
+}
+
+.item-salary p {
+    color: #007AFF;
+    font-feature-settings: 'case' on;
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 16px;
+    letter-spacing: -0.1px;
+}
+
+
+
+
+
+.separator {
+    width: 100%;
+    height: 0.33px;
+    position: absolute;
+    top: 56px;
+    background-color: #3C3C435C;
+}
+
+.item-name{
+    display: flex;
+    align-items: center;
+    gap: 6px;
+}
+
+.item-name p {
+    width: 100%;
+    max-width: 300px;   
+    box-sizing: border-box;
+
+    white-space: nowrap;      
+    overflow: hidden;      
+    text-overflow: ellipsis; 
+}
+
+.button {
+    z-index: 9;
+}

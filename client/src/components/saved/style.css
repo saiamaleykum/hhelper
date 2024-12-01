@@ -1,0 +1,139 @@
+.saved-page {
+    padding: 15px;
+}
+
+.saved-page .content {
+    padding: 24px 0;
+}
+
+.saved-page header {
+    gap: 8px;
+    letter-spacing: -0.43px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.saved-page header .first {
+    font-family: "SF Pro Text";
+    font-size: 24px;
+    font-weight: 590;
+    line-height: 32px;
+    color: var(--my-theme-text-color);
+}
+
+.saved-page header .second {
+    font-family: "SF Pro";
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 22px;
+    width: 329px;
+    color: #8E8E93;
+}
+
+
+
+
+
+.query-card {
+    width: 100%;
+    height: 60px;
+    border-radius: 12px;
+    background: var(--my-theme-bg-gift-card-color);
+    font-family: "SF Pro Text";
+
+    position: relative;
+    margin: 0 auto;
+    font-size: 0px;
+    margin-top: 8px;
+
+    display: flex;
+    align-items: center; 
+    justify-content: space-between; 
+    padding: 0 16px;
+}
+
+.query-card .name {
+    color: #8e8e93;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: 18px;
+    text-align: left;
+    white-space: nowrap;
+    letter-spacing: -0.08px;
+    margin: 0; 
+}
+
+/* .query-card svg {
+    cursor: pointer;
+    flex-shrink: 0; 
+} */
+.query-card .close {
+    display: flex;
+    width: 30px;
+    height: 30px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    flex-shrink: 0;
+    border-radius: 100px;
+    background: var(--my-theme-close-modal-color);
+    position: absolute;
+    right: 16px;
+    cursor: pointer;
+}
+
+.query-details {
+    padding: 20px;
+}
+
+.query-details .content {
+    background: var(--my-theme-bg-gift-card-color);
+    border-radius: 8px;
+    padding: 15px;
+    
+    color: #333333;
+    box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 20px auto;
+}
+
+.query-details .content p {
+    color: var(--my-theme-text-color);
+    font-family: "SF Pro";
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 22px;
+}
+
+.query-details .content p strong {
+    font-family: "SF Pro Text";
+    font-size: 16px;
+    font-weight: 590;
+    line-height: 32px;
+}
+
+.query-details .content .buttons {
+    display: flex;
+    gap: 10px;
+    margin: 15px 0;
+}
+
+.query-details .content .button {
+    background-color: #007aff;
+    color: #ffffff;
+    border: none;
+    border-radius: 100px;
+    padding: 10px 15px;
+    font-size: 14px;
+}
+
+.query-details .content .analytics-button {
+    width: 100%;
+}
+
+

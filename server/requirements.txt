@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+SQLAlchemy
+python-dotenv
+pydantic
+asyncpg
+alembic
+pika
+

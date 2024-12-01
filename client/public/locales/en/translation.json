@@ -1,0 +1,71 @@
+{
+  "of": "of",
+  "at": "at",
+  "Popular": "Popular",
+  "Search": "Search",
+  "Saved": "Saved",
+  "Profile": "Profile",
+  "global": "Global search",
+  "popular": {
+    "first": "Popular queries",
+    "second": "Choose a query that interests you"
+  },
+  "analytics": {
+    "first": "Statistics",
+    "second": "These are the numbers",
+    "countVacancies": "Number of vacancies:",
+    "countWithSalary": "Income is indicated:",
+    "averageSalary": "Average salary:",
+    "medianSalary": "Median salary:"
+  },
+  "saved": {
+    "first": "Favorite",
+    "second": "Your saved requests"
+  },
+  "details": {
+    "text": "Text:",
+    "region": "Region:",
+    "lastUpdate": "Last update at:",
+    "unknown": "unknown",
+    "button": {
+      "all": "Get all vacancies",
+      "new": "Get new vacancies",
+      "analytics": "Get analytics"
+    }
+  },
+  "search": {
+    "main": "Search",
+    "text": "Keywords",
+    "region": "Region",
+    "cancel": "Cancel"
+  },
+  "empty": {
+    "text": {
+      "search": "You don't have any saved requests yet",
+      "popular": "See popular requests"
+    },
+    "link": {
+      "search": "Open search",
+      "popular": "View popular"
+    }
+  },
+  "modal": {
+    "region": "Region",
+    "salary": "Salary",
+    "experience": "Experience",
+    "employment": "Employment",
+    "published_at": "Time"
+  },
+  "vacancies": {
+    "count": "Total vacancies:"
+  },
+  "button": {
+    "open_vacancy": "Open vacancy",
+    "search": "Search",
+    "save": "Save"
+  },
+  "alert": {
+    "region": "Wrong region entered",
+    "nodata": "Not enough data"
+  }
+}

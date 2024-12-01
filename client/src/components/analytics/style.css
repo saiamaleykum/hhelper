@@ -1,0 +1,54 @@
+.query-analytics header {
+    padding: 24px 0;
+    gap: 8px;
+    letter-spacing: -0.43px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.query-analytics header .first {
+    font-family: "SF Pro Text";
+    font-size: 24px;
+    font-weight: 590;
+    line-height: 32px;
+    color: var(--my-theme-text-color);
+}
+
+.query-analytics header .second {
+    font-family: "SF Pro";
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 22px;
+    width: 329px;
+    color: #8E8E93;
+}
+
+.query-analytics .content {
+    padding: 10px;
+    border-radius: 8px;
+
+    max-width: 300px;
+    margin: auto;
+    background: var(--my-theme-bg-gift-card-color);
+    font-family: "SF Pro Text";
+    font-size: 16px;
+    font-weight: 590;
+    line-height: 32px;
+}
+
+.query-analytics .content .item {
+    color: var(--my-theme-text-color);
+
+    margin-bottom: 8px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.query-analytics .content strong {
+    color: #8e8e93;
+}

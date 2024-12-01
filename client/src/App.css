@@ -1,0 +1,82 @@
+@font-face {
+    font-family: "SF Pro Text";
+    font-style: normal;
+    font-weight: 600;
+    src: url("https://raw.githubusercontent.com/blaisck/sfwin/master/SFPro/TrueType/SFProText-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: "SF Pro";
+    font-style: normal;
+    font-weight: 400;
+    src: url("https://raw.githubusercontent.com/blaisck/sfwin/master/SFPro/TrueType/SFProText-Regular.ttf");
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+#root, body {
+    height: 100vh;
+    position: relative;
+    width: 100%;
+}
+
+#root {
+    min-height: 100%;
+    overflow-x: hidden;
+    overflow-y: auto;
+}
+  
+body {
+    margin: 0;
+    overflow: hidden;
+    user-select: none;
+    /* background-color: var(--my-theme-bg-color); */
+}
+  
+.container {
+    max-width: 393px;
+    width: 100%;
+    margin: 0 auto;
+    /* border: 1px red solid; */
+}
+  
+  
+html[data-theme='light'] {
+    --my-theme-bg-color: #FFFFFF;
+    --my-theme-second-bg-color: #EFEFF3;
+    --my-theme-bg-menu-color: #F1F1F2BF;
+    --my-theme-notification-color: #2D2D2DCC;
+    --my-theme-text-color: #000000;
+    --my-theme-bg-switch-color: #EFEFF3;
+    --my-theme-active-switch-color: #FFFFFF;
+    --my-theme-bg-gift-card-color: #EFEFF3;
+    --my-theme-search-text-color: #3C3C4399;
+    --my-theme-bg-opacity: 0.9;
+    --my-theme-bg-modal-color: #EFEFF3;
+    --my-theme-close-modal-color: #E3E3E8;
+    --my-theme-border-modal-color: rgba(60, 60, 67, 0.36);
+}
+  
+html[data-theme='dark'] {
+    --my-theme-bg-color: #1C1C1E;
+    --my-theme-second-bg-color: #2C2C2E;
+    --my-theme-bg-menu-color: #1E1E1EBF;
+    --my-theme-notification-color: #000000CC;
+    --my-theme-text-color: #FFFFFF;
+    --my-theme-bg-switch-color: #000000;
+    --my-theme-active-switch-color: #2C2C2E;
+    --my-theme-bg-gift-card-color: #2C2C2E;
+    --my-theme-search-text-color: #8E8E93;
+    --my-theme-bg-opacity: 0.65;
+    --my-theme-bg-modal-color: #1C1C1E;
+    --my-theme-close-modal-color: #2C2C2E;
+    --my-theme-border-modal-color: rgba(255, 255, 255, 0.20);
+}
+  
+  
+  

@@ -1,0 +1,62 @@
+.tab {
+    height: 50px;
+    position: relative;
+    width: 98px;
+}
+
+.tab .animat {
+    height: 26px;
+    left: 36px;
+    position: absolute;
+    top: 4px;
+    width: 26px;
+}
+
+.tabbar .active .tab .label {
+    color: #007AFF;
+}
+
+/* .tabbar .active .tab svg path {
+    fill: #007AFF;
+} */
+
+.tab .label {
+    color: var(--my-theme-text-color);
+    font-family: "SF Pro Text";
+    font-size: 10px;
+    font-weight: 500;
+    left: 4px;
+    letter-spacing: 0.10px;
+    line-height: normal;
+    position: absolute;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    top: 33px;
+    width: 90px;
+}
+
+.tabs {
+    display: flex;
+    height: 50px;
+    position: relative;
+    padding-top: 8px;
+}
+
+.tabbar {
+    background-color: var(--my-theme-bg-menu-color);
+    position: fixed;
+    bottom: 0;
+    z-index: 3;
+    width: 100%;
+    max-width: 393px;
+    height: 92px;
+
+}
+
+.menu-separator {
+    position: absolute;
+    width: 100%;
+    height: 0.33px;
+    background: rgba(60, 60, 67, 0.36);
+}

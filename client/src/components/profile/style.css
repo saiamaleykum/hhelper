@@ -1,0 +1,219 @@
+.profile {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-bottom: 100px;
+}
+
+.profile header {
+    width: 329px;
+    height: 234px;
+    padding-top: 8px;
+    gap: 24px;
+    position: relative;
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+}
+
+.profile .recent-actions {
+    height: 24px;
+    gap: 4px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: absolute;
+    bottom: 1px;
+    z-index: 1;
+}
+
+.profile .recent-actions p {
+    font-family: "SF Pro";
+    font-size: 17px;
+    font-weight: 510;
+    line-height: 22px;
+    letter-spacing: -0.43px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #007AFF;
+}
+
+.profile .info {
+    height: 178px;
+    gap: 12px;
+    display: flex;
+    flex-direction: column; 
+    align-items: center;
+}
+
+.profile .info .name {
+    display: flex;
+    justify-content: center;
+    flex-direction: row; 
+    align-items: center;
+    gap: 6px;
+}
+
+.profile .details {
+    width: max-content;
+}
+
+.profile .details p {
+    font-family: "SF Pro";
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 22px;
+    letter-spacing: -0.44px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #8E8E93;
+}
+
+.profile .details .name p {
+    font-family: "SF Pro Text";
+    font-size: 24px;
+    font-weight: 600;
+    line-height: 32px;
+    letter-spacing: -0.43px;
+    text-align: right;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: var(--my-theme-text-color);
+}
+
+.profile .photo {
+    height: 108px;
+    width: max-content;
+    position: relative;
+    display: flex;
+    justify-content: center;
+}
+
+.profile .photo img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+}
+
+.profile .photo p {
+    width: max-content;
+    height: 22px;
+    top: 86px;
+    padding: 0 8px;
+    border-radius: 100px;
+    border: 2px;
+    background-color: #8E8E93;
+    color: #FFFFFF;
+    font-family: "SF Pro";
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 22px;
+    letter-spacing: 0.1px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    border: 2px solid var(--my-theme-bg-color);
+    position: absolute;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.profile .no-content {
+    padding: 24px 16px;
+}
+
+
+.profile .switch {
+    max-width: 393px;
+    width: 100%;
+    height: 44px;
+    padding: 6px 16px;
+    display: flex;
+    justify-content: space-between;
+    position: fixed;
+    top: 0;
+    z-index: 1;
+}
+
+.profile .switch .segment {
+    height: 32px;
+    border-radius: 99px;
+    background-color: var(--my-theme-bg-switch-color);
+    display: flex;
+    align-items: center;
+    padding: 2px;
+}
+
+.profile .switch .button {
+    width: max-content;
+    height: 28px;
+    padding: 7px 10px;
+    border-radius: 99px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "SF Pro Text";
+    font-size: 14px;
+    font-weight: 590;
+    line-height: 22px;
+    letter-spacing: -0.41px;
+    text-align: center;
+    text-underline-position: from-font;
+    text-decoration-skip-ink: none;
+    color: #8E8E93;
+}
+
+.profile .switch .button svg path {
+    fill: #8E8E93;
+}
+
+.profile .segment .button.active {
+    background-color: var(--my-theme-active-switch-color);
+    border: 0.5px solid #0000000A;
+    color: var(--my-theme-text-color);
+}
+
+.profile .segment .button.active svg path {
+    fill: var(--my-theme-text-color);
+}
+
+.profile .content {
+    padding-top: 24px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    justify-content: center;
+    justify-items: center;
+    gap: 8px;
+}
+
+.history {
+    padding-bottom: 92px;
+}
+
+.history-date {
+    display: flex;
+    padding: 24px 16px 12px 16px;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+    align-self: stretch;
+}
+
+.history-date p {
+    color: #6D6D71;
+    flex: 1 0 0;
+    font-family: "SF Pro";
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 18px;
+    letter-spacing: -0.08px;
+    text-transform: uppercase;
+}
+
+             
