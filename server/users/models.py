@@ -11,7 +11,7 @@ class User(Base):
     username = Column(String(32))
     first_name = Column(String(64), nullable=False)
     last_name = Column(String(64))
-    registered_at = Column(DateTime, server_default=func.now(), nullable=False)
+    registered_at = Column(DateTime(timezone=True), server_default=func.now(), nullable=False)
 
     # queries = relationship("Query", back_populates="created_by_user")
     queries = relationship("Query", secondary="subscriptions", back_populates="users")
