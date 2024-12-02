@@ -1,7 +1,6 @@
 import './style.css';
 import React, {useEffect, useState} from "react";
 import { useNavigate } from 'react-router-dom';
-import Empty from '../shared/Empty.tsx';
 import request from "../../api/requests.ts";
 import {tg} from '../../App.js'
 import {PopularQueryItem} from '../../types/types.ts'

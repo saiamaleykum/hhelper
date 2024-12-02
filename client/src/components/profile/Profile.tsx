@@ -4,17 +4,11 @@ import {tg} from '../../App.js'
 import { useTheme, useLanguage } from "../../hooks/use-theme.ts";
 import Empty from "../shared/Empty.tsx";
 import {themeIcons} from '../../assets/themeIcons.tsx'
-import request from "../../api/requests.ts";
-import {useTranslation} from 'react-i18next';
-import {useLocation, useNavigate} from "react-router-dom";
 import Loader from "../shared/Loader.tsx";
 
 
 
 const Profile = () => {
-    const navigate = useNavigate();
-    const { t } = useTranslation();
-
     const [loading, setLoading] = useState(true);
 
     const { theme, setTheme } = useTheme();

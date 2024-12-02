@@ -1,4 +1,4 @@
-import React, {useEffect, useState} from "react";
+import React, {useEffect} from "react";
 import './style.css';
 import bananaImage from '../../assets/svg/banana.svg'
 import {tg} from '../../App.js';

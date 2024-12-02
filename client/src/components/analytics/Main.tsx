@@ -1,5 +1,5 @@
 import './style.css';
-import React, {useEffect, useState, useCallback } from "react";
+import React, {useEffect, useState } from "react";
 import { useNavigate, useLocation } from 'react-router-dom';
 import {tg} from '../../App.js'
 import Loader from '../shared/Loader.tsx'
