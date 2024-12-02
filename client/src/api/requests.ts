@@ -1,7 +1,7 @@
 
 
 const request = async (method: string, endpoint: string, data?: any) => {
-    let url = `${process.env.REACT_APP_SERVER_URL}/${endpoint}`;
+    let url = `${process.env.REACT_APP_SERVER_URL}/api/${endpoint}`;
     console.log(url)
     console.log(data)
     if (method === "GET" && data) {

@@ -34,17 +34,17 @@ services:
     depends_on:
       - server
   
-    nginx:
-      image: nginx:alpine
-      ports:
-        - "80:80"
-        - "443:443"
-      volumes:
-        - ./ssl:/etc/nginx/ssl:ro
-        - ./nginx.conf:/etc/nginx/nginx.conf
-  #      - ./client/build:/usr/share/nginx/html # Статические файлы клиента
-      depends_on:
-        - server
-        - client
+  nginx:
+    image: nginx:alpine
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./ssl:/etc/nginx/ssl:ro
+      - ./nginx.conf:/etc/nginx/nginx.conf
+#      - ./client/build:/usr/share/nginx/html # Статические файлы клиента
+    depends_on:
+      - server
+      - client
 volumes:
   postgres_data:
