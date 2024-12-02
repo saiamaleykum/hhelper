@@ -17,9 +17,9 @@ app.add_middleware(
     allow_headers=["*"],  
 )
 
-app.include_router(router_queries)
-app.include_router(router_users)
-app.include_router(router_subscriptions)
+app.include_router(router_queries, prefix="/api")
+app.include_router(router_users, prefix="/api")
+app.include_router(router_subscriptions, prefix="/api")
 
 
 # def get_rabbitmq_channel():
