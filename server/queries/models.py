@@ -3,7 +3,6 @@ from sqlalchemy import Column, Integer, Boolean, JSON, Enum, DateTime, func, Str
 from sqlalchemy.orm import relationship
 
 from database import Base
-from .utils import get_time
 
 # class QueryVacancies(Base):
 #     __tablename__ = "query_vacancies"
