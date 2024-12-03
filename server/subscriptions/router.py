@@ -1,6 +1,7 @@
 from fastapi import APIRouter
 from typing import List, Set, Optional, Literal
 from datetime import datetime
+from pytz import timezone
 
 from .service import SubscriptionService
 from .schemas import SubscriptionAction
@@ -13,9 +14,6 @@ router = APIRouter(
 )
 
 
-
-
-
 @router.get("s/{user_id}")
 async def get_user_queries(user_id: int):
     subscriptions = await SubscriptionService.find_all(user_id=user_id, is_active=True)
@@ -24,7 +22,11 @@ async def get_user_queries(user_id: int):
 
 @router.get("/time/{subscription_id}")
 async def get_update_time(subscription_id: int):
-    return await SubscriptionService.find_by_id(subscription_id)
+    result =  await SubscriptionService.find_by_id(subscription_id)
+    timezone_minsk = timezone('Europe/Minsk')
+    local_time = result.last_update_time.astimezone(timezone_minsk)
+    result.last_update_time = local_time.replace(tzinfo=None)
+    return result
 
 
 @router.patch("/time/{subscription_id}")
