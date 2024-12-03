@@ -12,6 +12,7 @@ from config import DATABASE_URL
 from database import Base
 from users import models
 from queries import models
+from subscriptions import models
 
 # this is the Alembic Config object, which provides
 # access to the values within the .ini file in use.
